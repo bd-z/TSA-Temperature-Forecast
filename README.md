@@ -1,4 +1,4 @@
-# TSA-Temperature-Forecast
+# TSA-Temperature-Forecasting
 Temperature forecasting using time-series analysis models
 
 Goal:
