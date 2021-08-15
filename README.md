@@ -5,7 +5,7 @@ Goal:
 This is home work assigned by Spiced Academy. A short-term temperature forecast will be created with time series model.
 
    1. Get and clean temperature data from www.ecad.eu. Daily temperature data in Berlin Tempelhof area was downloaded. Due to the end of second world war, some data in year 1945 are outliers, they were droped out. 
-
+![image](https://github.com/bd-z/TSA-Temperature-Forecast/blob/main/IMG/index.png)
    2. Build a baseline model to model the trend and seasonality. Add season dummies feature by using month value; Add time stemp features; linear regression was performed on the data. R2 score is 0.7509.
    
    3. Plot and inspect the different components of a time series. The baseline model captures the trend and seasonality. Observed temperature deducting prediction of the baseline model is the remainder. shifting the remainder for one period is lag 1. the corelation between remainder and lag 1 is 0.8009. ACF and PACF was plot to determin how many lags should be taken into consideration.
